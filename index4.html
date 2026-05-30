@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nxenes Të Suksesshëm - Migjeni</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    color:#222;
+}
+
+header{
+    background:linear-gradient(to bottom,#0b4db3,#003b91);
+    text-align:center;
+    color:white;
+    padding:30px 20px;
+}
+
+.logo{
+    width:130px;
+    height:130px;
+    background:white;
+    border-radius:50%;
+    object-fit:contain;
+    margin-bottom:15px;
+}
+
+header h1{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:22px;
+    letter-spacing:3px;
+}
+
+nav{
+    background:#002d72;
+    padding:18px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    list-style:none;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#a8c8ff;
+}
+
+
+/* TITULL */
+.title{
+    text-align:center;
+    font-size:40px;
+    margin:60px 0 20px;
+    color:#003b91;
+}
+
+/* SEKSIONE */
+.section-row{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:40px;
+    padding:15px 5%;
+}
+
+.section-text{
+    flex:1;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.10);
+    text-align:left;
+    min-height:250px;
+}
+
+
+.section-text{
+    max-width:700px;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.section-text h2{
+    text-align:center;
+}
+
+/* HISTORIA (invert) */
+.reverse{
+    flex-direction:row-reverse;
+}
+
+footer{
+    background:#002d72;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:60px;
+}
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:38px;
+    }
+
+    .hero h2{
+        font-size:42px;
+    }
+
+    .hero p{
+        font-size:20px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+}
+/* GALERIA */
+.photo-gallery{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:20px 5%;
+}
+
+.photo-gallery img{
+    width:250px;
+    height:180px;
+    object-fit:cover;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.photo-gallery img:hover{
+    transform:scale(1.05);
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="WhatsApp_Image_2026-05-28_at_3.24.03_PM-removebg-preview.png" class="logo" alt="Logo e shkollës Migjeni">
+    <h1>SHKOLLA "MIGJENI"</h1>
+    <p>MAMURRAS</p>
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">Kreu</a></li>
+<li><a href="index2.html">Rreth Nesh</a></li>
+<li><a href="index3.html">Aktivitete</a></li>
+<li><a href="index4.html">Nxënësit e Suksesshëm</a></li>
+<li><a href="index5.html">Kontakt</a></li>
+</ul>
+</nav>
+
+<h2 class="title">NXËNËS TË SUKSESSHËM</h2>
+
+<!-- PJESA 1 -->
+<div class="section-row">
+    <div class="section-text">
+        <h2>Albert Cakoni</h2>
+        <b>Albert Cakoni</b> është një model i shkëlqyer suksesi për të gjithë nxënësit tanë. Ai ka përfunduar studimet e larta dhe ka fituar titullin e lartë Doktor i Shkencave (Ph.D.) në Universitetin e Mjekësisë në Tiranë.Sot, ai është një mjek shumë i njohur në fushën e obstetrikë-gjinekologjisë. Dr. Cakoni ka dhënë një ndihmë të madhe për shëndetin e grave përmes kërkimeve të tij shkencore dhe punës së përditshme. Ai merr pjesë shpesh në trajnime ndërkombëtare dhe ndan këshilla me vlerë në emisione televizive. Me punën dhe përkushtimin e tij, ai na tregon se me mësime dhe vullnet mund të arrish majat e shkencës!
+    </div>
+</div>
+
+<!-- PJESA 2 (reverse si historia) -->
+<div class="section-row reverse">
+    <div class="section-text">
+        <h2>Ernest Dukagjini</h2>
+        <b>Ernest Dukagjini</b> është një inxhinier dhe arkitekt i nivelit të lartë, i specializuar në sigurinë kibernetike dhe sistemet Cloud me mbi 15 vite përvojë globale. Si mbajtës i certifikatave më të rëndësishme në industri, ai shërben si drejtues strategjik për kompani ndërkombëtare. Ai projekton arkitektura të sigurta të rrjetit bazuar në parimin "Zero Trust", ku çdo pajisje dhe përdorues verifikohet rreptësisht përpara se të marrë qasje. Gjithashtu, ai ndërton sisteme monitorimi në kohë reale për zbulimin e hershëm të sulmeve të hakerave, si dhe udhëheq skuadrat teknike për migrimin e sigurt të të dhënave në Cloud dhe planifikimin e rimëkëmbjes nga fatkeqësitë teknologjike.
+    </div>
+</div>
+
+<!-- PJESA 3 -->
+<div class="section-row">
+    <div class="section-text">
+        <h2>Edona Hima</h2>
+        <b>Edona Hima</b> është një juriste shqiptare e cila ka ndërtuar një karrierë të suksesshme në fushën e aviacionit. Ajo ka mbaruar studimet për të drejtë penale dhe kriminalistikë në Universitetin e Stambollit në Turqi. Pas një përvoje të parë me kompaninë Turkish Airlines, ajo u zhvendos në Dubai për të punuar si stjuardesë për linjën e njohur ajrore Emirates. Edona ka ndarë historinë e saj të veçantë në mediat shqiptare, si TV Klan dhe Radio Travel, ku ka treguar për jetën larg shtëpisë, sfidat e fluturimeve të gjata dhe dëshirën për t'u rikthyer një ditë në Shqipëri.
+    </div>
+</div>
+
+<!-- GALERIA E FOTOVE -->
+<h2 class="title">CERTEFIKATAT</h2>
+
+<div class="photo-gallery">
+    <img src="imazhet\s.jpeg" alt="Foto 1">
+    <img src="imazhet\d.jpeg" alt="Foto 2">
+    <img src="imazhet\ccc.jpeg" alt="Foto 3">
+    <img src="imazhet\cc.jpeg" alt="Foto 4">
+    <img src="imazhet\c.jpeg" alt="Foto 5">
+    <img src="imazhet\a.jpeg" alt="Foto 6">
+    <img src="imazhet\e.jpeg" alt="Foto 7">
+    <img src="imazhet\q.jpeg" alt="Foto 8">
+    <img src="imazhet\r.jpeg" alt="Foto 9">
+</div>
+
+<footer>
+© 2026 Shkolla 9-Vjeçare Migjeni - Mamurras
+</footer>
+
+</body>
+</html>

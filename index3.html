@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nxenes Të Suksesshëm - Migjeni</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    color:#222;
+}
+
+header{
+    background:linear-gradient(to bottom,#0b4db3,#003b91);
+    text-align:center;
+    color:white;
+    padding:30px 20px;
+}
+
+.logo{
+    width:130px;
+    height:130px;
+    background:white;
+    border-radius:50%;
+    object-fit:contain;
+    margin-bottom:15px;
+}
+
+header h1{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:22px;
+    letter-spacing:3px;
+}
+
+nav{
+    background:#002d72;
+    padding:18px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    list-style:none;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#a8c8ff;
+}
+
+
+/* TITULL */
+.title{
+    text-align:center;
+    font-size:40px;
+    margin:60px 0 20px;
+    color:#003b91;
+}
+
+/* SEKSIONE */
+.section-row{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:25px 5%;
+}
+
+.section-text{
+    width:100%;
+    max-width:900px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.10);
+    font-size:18px;
+    line-height:1.8;
+    text-align:center;
+}
+
+.section-text h2{
+    text-align:center;
+}
+
+/* foto + video qendër */
+.photo-gallery,
+.video-box{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+/* HISTORIA (invert) */
+
+
+footer{
+    background:#002d72;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:60px;
+}
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:38px;
+    }
+
+    .hero h2{
+        font-size:42px;
+    }
+
+    .hero p{
+        font-size:20px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+}
+.photo-gallery{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:20px 5%;
+}
+
+.photo-gallery img{
+    width:250px;
+    height:180px;
+    object-fit:cover;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.photo-gallery img:hover{
+    transform:scale(1.05);
+}
+
+.video-box{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+}
+
+.video-box video{
+    width:100%;
+    max-width:600px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="C:\Users\User\OneDrive\Desktopi\shkolla\imazhet\WhatsApp_Image_2026-05-28_at_3.24.03_PM-removebg-preview.png" class="logo" alt="Logo e shkollës Migjeni">
+    <h1>SHKOLLA "MIGJENI"</h1>
+    <p>MAMURRAS</p>
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">Kreu</a></li>
+<li><a href="index2.html">Rreth Nesh</a></li>
+<li><a href="index3.html">Aktivitete</a></li>
+<li><a href="index4.html">Nxënësit e Suksesshëm</a></li>
+<li><a href="index5.html">Kontakt</a></li>
+</ul>
+</nav>
+
+<h2 class="title">AKTIVITETET</h2>
+
+<!-- SEKSION 1 -->
+<div class="section-row">
+    <div class="section-text">
+        <h2>Arte</h2>
+        <p>Në këtë hapësirë, ne ndajmë me ju krijimet më mbresëlënëse të talentit të shkollës sonë. Nga pikturat e gjalla në kanavacë që mbushin klasat me dritë, e deri tek instalacionet moderne që ngacmojnë imagjinatën dhe prekin emocione të thella, çdo punim tregon përkushtimin dhe botën e pasur të fëmijëve tanë.</p>
+
+        <div class="photo-gallery">
+            <img src="imazhet\WhatsApp Image 2026-05-28 at 3.19.51 PM.jpeg" alt="Foto 1">
+            <img src="imazhet\img.jpeg" alt="Foto 2">
+            <img src="imazhet\WhatsApp Image 2026-05-28 at 3.13.18 PM.jpeg" alt="Foto 3">
+        </div>
+    </div>
+</div>
+
+<!-- SEKSION 2 -->
+<div class="section-row reverse">
+    <div class="section-text">
+        <h2>Zeje dhe Punë Dore</h2>
+        <p>Në sektorin e zejeve dhe punëve të dorës, nxënësit tanë transformojnë materialet e thjeshta të natyrës, letrën dhe elementet e riciklueshme në vepra të vërteta arti. Këtu do të gjeni gërshetimin e bukur të traditës sonë me dizajnin modern, si dhe projekte ekologjike që tregojnë kujdesin tonë për mjedisin.</p>
+
+        <div class="photo-gallery">
+            <img src="imazhet\WhatsApp Image 2026-05-28 at 3.21.18 PM (1).jpeg" alt="Foto 4">
+            <img src="imazhet\WhatsApp Image 2026-05-28 at 3.13.13 PM.jpeg" alt="Foto 5">
+            <img src="imazhet\WhatsApp Image 2026-05-28 at 3.13.17 .jpeg" alt="Foto 6">
+        </div>
+    </div>
+</div>
+
+<!-- SEKSION 3 -->
+<div class="section-row">
+    <div class="section-text">
+        <h2>Lojëra dhe aktivitete</h2>
+        <p>Aktivitetet tona jashtëkurrikulare bashkojnë argëtimin me zhvillimin digjital dhe social. Përmes lojërave në grup që forcojnë miqësinë, skeçeve teatrore ku zbulohen aktorët e së ardhmes, dhe prezantimeve digjitale ku nxënësit zotërojnë teknologjinë e re, ne ndërtojmë një mjedis gjithëpërfshirës.</p>
+
+        <div class="photo-gallery">
+            <img src="imazhet\WhatsApp Image 2026-05-28 at 3.06.02 PM (1).jpeg" alt="Foto 7">
+            <img src="imazhet\SnapInsta.to_658075311_18007336853908384_3085084597393826260_n.jpg" alt="Foto 8">
+            <img src="imazhet\WhatsApp Image 2026-05-28 at 3.18.45 PM (1).jpeg" alt="Foto 9">
+        </div>
+    </div>
+</div>
+
+<footer>
+© 2026 Shkolla 9-Vjeçare Migjeni - Mamurras
+</footer>
+
+</body>
+</html>
